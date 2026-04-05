@@ -25,7 +25,9 @@
       "permissions": [
         "INTERNET",
         "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE"
+        "WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
       ]
     },
     "web": {
@@ -42,8 +44,9 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "your-eas-project-id"
+        "projectId": "dafec299-2838-4a01-a700-f6d66eacbf37"
       }
-    }
+    },
+    "owner": "sukunaonlyfans"
   }
 }
